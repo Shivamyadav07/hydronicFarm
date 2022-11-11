@@ -1,0 +1,62 @@
+.posterImage {
+    height: 600px;
+    width: 100%;
+}
+
+.infodiv {
+    position: absolute;
+    text-align: left;
+    font-weight: 600;
+    left: 50px;
+    bottom: 200px;
+}
+
+.components {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 60px;
+}
+
+.comDiv {
+    text-align: center;
+    font-size: 18px;
+    height: 221px;
+    width: 314px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.contacth {
+    padding: 50px;
+}
+.info{
+    width: 400px;
+    margin-left: 40px;
+}
+.contact {
+    height: 400px;
+    width: 100%;
+    color: white;
+    font-size: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: rgb(41, 51, 107);
+    grid-gap: 50px;
+}
+
+.form input {
+    width: 350px;
+    display: block;
+    margin-top: 20px;
+    height: 40px;
+    border-radius: 10px;
+}
+
+button {
+    width: 200px;
+    display: block;
+    margin-top: 20px;
+    height: 40px;
+    margin-left: 80px;
+    border-radius: 10px;
+}
