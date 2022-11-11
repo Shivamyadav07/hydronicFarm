@@ -1,0 +1,42 @@
+.heading {
+    font-size: 80px;
+    padding: 20px 80px;
+    background-color: bisque;
+    text-align: left;
+}
+
+.maindiv {
+    text-align: left;
+    padding: 10px 145px;
+}
+.infodiv{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 50px;
+    font-size: 50px;
+    margin-top: 40px;
+    font-weight: 600;
+}
+.infodiv img{
+    height: 310px;
+    width: 500px;
+}
+
+.start{
+    background-color: rgb(255,212,90);
+    height: 350px;
+    width: 980px;
+    text-align: left;
+    font-size: 20px;
+    margin-left: 145px;
+    padding-left: 100px;
+    padding-top: 50px;
+}
+
+.button{
+    margin-left: 400px;
+    border-radius: 0px;
+    height: 45px;
+    width: 120px;
+    background-color:rgb(255,212,90) ;
+}

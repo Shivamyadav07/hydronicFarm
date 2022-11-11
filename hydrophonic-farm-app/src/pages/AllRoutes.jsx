@@ -9,7 +9,7 @@ export const AllRoutes = () => {
     return (
         <Routes>
             <Route path='/' element={<HomePage />} />
-            <Route path='/knowlage' element={<KnowlagePage />} />
+            {/* <Route path='/knowlage' element={<KnowlagePage />} /> */}
             <Route path='/hydrophonicSetup' element={<HydrophonicSetup />} />
             <Route path='/contact' element={<ContactPage />} />
         </Routes>
